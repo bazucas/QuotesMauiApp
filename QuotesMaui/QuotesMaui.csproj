@@ -48,4 +48,13 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Resources\Fonts\Bison.ttf" />
+	  <None Remove="Resources\Raw\quotes.txt" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="ColorUtility" Version="1.0.0" />
+	</ItemGroup>
+
 </Project>
